@@ -23,7 +23,6 @@ body{
 }
 .menu a:hover{
     color:  rgb(209, 115, 89);
-    font-weight: 500;
 }
 .email:hover{
     background-color: rgb(209, 115, 89);
@@ -34,7 +33,7 @@ body{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
     align-items: center;
 }
 .menu a{
@@ -42,7 +41,7 @@ body{
 }
 h4{
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     text-decoration: none;
     text-decoration-line: none;
     color: rgb(255, 255, 255);
@@ -72,7 +71,8 @@ h4{
     background-position: center;
 }
 h2{
-    font-size: 24px;
+    font-size: 28px;
+    color:  rgb(209, 115, 89);
 }
 .nameContainer {
     display: flex;
@@ -83,7 +83,7 @@ h2{
 
 .nameContainer img {
     aspect-ratio: 1/1;
-    width: 132px;
+    width: 170px;
     border-radius: 50%; 
     margin-bottom: 20px; 
 }
