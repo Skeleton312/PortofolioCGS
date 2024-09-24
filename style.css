@@ -37,14 +37,14 @@ body{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
     align-items: center;
 }
 .menu a{
-    font-size: 20px;
+    font-size: 18px;
 }
 h4{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 100;
     text-decoration: none;
     text-decoration-line: none;
@@ -55,7 +55,7 @@ h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 11rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -75,7 +75,7 @@ h4{
     background-position: center;
 }
 h2{
-    font-size: 36px;
+    font-size: 30px;
 }
 .nameContainer {
     display: flex;
@@ -86,6 +86,7 @@ h2{
 
 .nameContainer img {
     aspect-ratio: 1/1;
+    width: 170px;
     border-radius: 50%; 
     margin-bottom: 20px; 
 }
@@ -97,14 +98,14 @@ h2{
 .about{
     height: 100vh;
     background-image: url('aset/aboutBack.jpg');
-    box-shadow: inset 70rem 2rem 100px 3rem rgba(0, 0, 0, 1); 
+    box-shadow: inset 60rem 2rem 100px 3rem rgba(0, 0, 0, 1); 
     background-size: cover;                  
     background-position: center;
 }
 
 .about h2{
     text-align: right;
-    margin-top: 1px;
+    margin-top: 10px;
     margin-right: 50px;
 }
 .aboutContainer{
@@ -128,6 +129,7 @@ h2{
 }
 .detailToping img{
     aspect-ratio: 1/1;
+    width: 150px;
     border-radius: 5px;
 }
 .email {
@@ -136,6 +138,9 @@ h2{
     border-radius: 50px;   
     display: inline-block;
     margin: 5px;  
+}
+.email img{
+    width: 18px;
 }
 .connect h2{
     text-align: center;
@@ -179,9 +184,6 @@ h2{
     }
 }
 @media (min-width: 768px) and (max-width: 1440px) {
-    .menu{
-        gap: 25px;
-    }
     .sideNavContainer{
         gap: 10rem;
     }
